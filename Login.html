@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Form Login</title>
+		<title>Log in</title>
+		<style>
+body {
+			background-image: url("bgLog.jpg");
+			
+			 height: auto;
+		}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 370px;
+
+}
+
+td, th {
+    border: 1px solid lightgrey;
+    color: white;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+</style>
 	</head>
 <body>
-	<h1>FORM LOGIN</h1>
-	<p>Silahkan anda Login di form berikut ini, terimakasih...</p>
-	
+<div style="background-color:;padding:20px;margin-left: 1px;margin-right: 1px;margin-top: 170px">
 	<form>
-		Username:<br>
-		<input type="text" name="user"><br>
-		Password:<br>
-		<input type="password" name="pass">
-		<input type="submit" value="Submit">
-	</form>
+		<table border="1" align="center">
+	<tr>
+		<td><h1 align="center" >LOG IN</h1></td></tr>
+	<tr>
+		<td align="center"><br>
+		<input style="" type="text" name="user" placeholder="Username"><br><br>
+		<input type="password" name="pass" placeholder="Password"><br><br>
+	<input type="checkbox" name="check"><a style="color: black">Remember me</a></td></tr>
+		<td bgcolor="lightgrey" style="color: black" align="center">
+		<input type="submit" style="font-size: 25px;" value="       Login       " name="submit"><br><br></td>
+		
+	
+
+
+</table>
+</form>
+	
 </body>
 
 </html>
