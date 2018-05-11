@@ -1,21 +1,15 @@
 .header{
-	background: #7300e6;
-	width: 1000px;
-	height: 120px;
-	margin: 0 auto;
+	background-image: url("header-bg.jpg")
 }
 
 .header h1{
-	background: black;
-	width: 410px;
-	height: 100px;
+	
 	text-align: left;
 	margin-left: 0px;
 	font-family: verdana;
-	color: white;
 	padding-top: 50px;
 	padding-left: 50px;
-	border-radius: 00px 500px 0px;
+
 
 }
 .header small{
@@ -23,8 +17,7 @@
 }
 
 .menu{
-	width: 1000px;
-	height: 40px;
+
 	margin: 0 auto;
 	background:  #bf80ff;
 	border-top: 1px solid #000;

@@ -1,0 +1,98 @@
+.up a{ 
+	padding-left: 10px;
+
+}
+
+
+.header{
+	background-image: url("header-bg.jpg")
+}
+
+.header h1{
+	
+	text-align: center;
+	margin-left: 0px;
+	font-family: verdana;
+	color: white;
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+
+
+}
+.header small{
+	font-size: 50%;
+}
+
+.menu{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	background: lightgrey;
+	border-top: 1px solid lightgrey;
+	text-align: center;
+}
+
+.menu ul li{
+	display: inline;
+	text-decoration: none;
+}
+
+.menu  a{
+	color: #000;
+	font-family: arial;
+	text-decoration: none;
+	font-size: 30px;
+
+}
+
+.content{
+	background: lightgray;
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto; 
+}
+
+.subc{
+	width: 310px;
+	height: 380px;
+	background: white;
+	border-radius: 10px;
+	float: left;
+	margin: 10px;
+
+}
+
+.i1{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.i2{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.i3{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.footer{
+width: 1000px;
+	height: 250px;
+	margin: 0 auto;
+	background: grey;
+	border-top: 1px solid grey;
+	text-align: center;
+	color: white;
+}
+
+
+
+.b1 {
+	background-color: #4CAF50;
+	border-color: #4CAF50;
+	border-radius: 8px 8px 8px;
+	color: white;
+}
